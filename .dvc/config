@@ -1,5 +1,7 @@
 [core]
     autostage = true
-    remote = storage
+    remote = myremote
 ['remote "storage"']
     url = https://drive.google.com/drive/u/0/folders/1uwV5eeoidgJambZo3n5r9q9OwAko3khW
+['remote "myremote"']
+    url = ../gdrive/1uwV5eeoidgJambZo3n5r9q9OwAko3khW
