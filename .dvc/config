@@ -1,0 +1,5 @@
+[core]
+    autostage = true
+    remote = storage
+['remote "storage"']
+    url = https://drive.google.com/drive/u/0/folders/1uwV5eeoidgJambZo3n5r9q9OwAko3khW
