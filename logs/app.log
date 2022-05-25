@@ -1,0 +1,8 @@
+25-05-2022 09:44:25 - [INFO] -  file_handler - (file_handler.py).read_csv(line 24) - Csv file read from ../Data/store.csv.
+25-05-2022 09:44:38 - [INFO] -  file_handler - (file_handler.py).read_csv(line 24) - Csv file read from ../Data/train.csv.
+25-05-2022 09:44:42 - [INFO] -  file_handler - (file_handler.py).read_csv(line 24) - Csv file read from ../Data/test.csv.
+25-05-2022 09:46:15 - [INFO] -  file_handler - (file_handler.py).to_csv(line 16) - Csv file saved in ../Data/Train.csv.
+25-05-2022 09:46:15 - [INFO] -  file_handler - (file_handler.py).to_csv(line 16) - Csv file saved in ../Data/Store.csv.
+25-05-2022 09:47:07 - [INFO] -  file_handler - (file_handler.py).to_csv(line 16) - Csv file saved in ../Data/train.csv.
+25-05-2022 09:57:47 - [INFO] -  file_handler - (file_handler.py).read_csv(line 24) - Csv file read from ../Data/test.csv.
+25-05-2022 09:58:02 - [INFO] -  file_handler - (file_handler.py).read_csv(line 24) - Csv file read from ../Data/train.csv.
