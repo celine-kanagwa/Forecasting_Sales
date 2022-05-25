@@ -42,7 +42,10 @@ The project is divided and implemented by the following phases
 
 ## Installation guide
 ```
-git clone
+git clone https://github.com/celine-kanagwa/Forecasting_Sales.git
 
 pip install -r requirements.txt
+
+ML pipeline graph
+image.png
 ```
