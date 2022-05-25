@@ -6,3 +6,508 @@
 25-05-2022 09:47:07 - [INFO] -  file_handler - (file_handler.py).to_csv(line 16) - Csv file saved in ../Data/train.csv.
 25-05-2022 09:57:47 - [INFO] -  file_handler - (file_handler.py).read_csv(line 24) - Csv file read from ../Data/test.csv.
 25-05-2022 09:58:02 - [INFO] -  file_handler - (file_handler.py).read_csv(line 24) - Csv file read from ../Data/train.csv.
+25-05-2022 15:01:58 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from ../data/train.csv.
+25-05-2022 17:07:18 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:07:19 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:28:55 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:28:55 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:28:55 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:28:55 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:29:19 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:29:19 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:29:19 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:29:19 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:29:19 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:29:19 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:29:42 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:29:42 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:29:42 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:29:42 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:29:43 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:29:43 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:29:43 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:29:43 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:30:15 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:30:15 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:30:15 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:30:15 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:30:15 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:30:15 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:30:15 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:30:15 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:30:15 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:30:15 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:30:19 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:30:19 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:30:19 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:30:19 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:30:19 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:30:19 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:30:19 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:30:19 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:30:19 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:30:19 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:30:19 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:30:19 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:30:23 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:30:23 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:30:23 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:30:23 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:30:23 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:30:23 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:30:23 - [ERROR] -  file_handler - (file_handler.py).read_csv(line 28) - File not found.
+Traceback (most recent call last):
+  File "E:\10 academy\Task\Week 3\ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION\scripts\file_handler.py", line 24, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\CELINE\anaconda3\envs\hirwa\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'features/test_features.csv'
+25-05-2022 17:30:23 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:30:23 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:30:23 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:30:23 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:30:23 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:30:23 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
+25-05-2022 17:30:23 - [INFO] -  file_handler - (file_handler.py).read_csv(line 25) - Csv file read from src/data/test.csv.
