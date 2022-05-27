@@ -11,9 +11,9 @@ Config.FEATURES_PATH.mkdir(parents=True, exist_ok=True)
 
 file_handler = FileHandler()
 
-train_df = file_handler.read_csv(str(Config.DATASET_PATH / "train.csv"))
+train_df = file_handler.read_csv(str(Config.DATASET_PATH / "Clean_train.csv"))
 test_df = file_handler.read_csv(str(Config.DATASET_PATH / "test.csv"))
-store_df = file_handler.read_csv(str(Config.DATASET_PATH / "store.csv"))
+store_df = file_handler.read_csv(str(Config.DATASET_PATH / "Clean_store.csv"))
 
 def merge(df, store):
     df_merge = pd.merge(df, store, on='Store')
