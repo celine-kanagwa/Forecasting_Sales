@@ -1,0 +1,4 @@
+artifact_location: file:///E:/10%20academy/Task/Week%203/ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION/Notebooks/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: Light GBM Regressor

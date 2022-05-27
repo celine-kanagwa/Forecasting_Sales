@@ -1,0 +1,11 @@
+mlflow
+cffi==1.15.0
+cloudpickle==2.0.0
+cython==0.29.28
+defusedxml==0.7.1
+distributed==2022.2.0
+graphviz==0.19.1
+lightgbm==3.3.2
+matplotlib==3.5.1
+scikit-learn==1.0.2
+typing-extensions==4.1.1

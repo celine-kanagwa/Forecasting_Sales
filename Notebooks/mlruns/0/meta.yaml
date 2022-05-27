@@ -1,0 +1,4 @@
+artifact_location: file:///E:/10%20academy/Task/Week%203/ROSSMANN_PHARMACEUTICALS_SALES_PREDICTION/Notebooks/mlruns/0
+experiment_id: '0'
+lifecycle_stage: active
+name: Linear Regression
